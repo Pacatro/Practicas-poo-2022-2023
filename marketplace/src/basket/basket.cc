@@ -5,14 +5,14 @@ bool Basket::delete_product(Product product){
 
     for(it = product_list_.begin(); it != product_list_.end(); it++){
         if(it->get_id() == product.get_id()){
+            total_ -= product.get_price();
+            
             product_quantity_[it->get_id()]--;
 
             if(product_quantity_[it->get_id()] == 0){
                 product_list_.erase(it);
-                //product_quantity_.erase(it->get_id()); -> NECESARIO?
+                product_quantity_.erase(it->get_id());
             }
-
-            total_ -= product.get_price();
 
             return true;
         }
@@ -26,14 +26,14 @@ bool Basket::delete_product(std::string id){
 
     for(it = product_list_.begin(); it != product_list_.end(); it++){
         if(it->get_id() == id){
+            total_ -= it->get_price();
+
             product_quantity_[it->get_id()]--;
 
             if(product_quantity_[it->get_id()] == 0){
                 product_list_.erase(it);
-                //product_quantity_.erase(it->get_id()); -> NECESARIO?
+                product_quantity_.erase(it->get_id());
             }
-
-            total_ -= it->get_price();
 
             return true;
         }

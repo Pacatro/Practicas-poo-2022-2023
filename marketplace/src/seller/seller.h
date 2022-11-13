@@ -11,8 +11,6 @@ class Seller: public Person, public Basket{
     private:
         std::string sector_;
 
-        //Aditional
-        bool product_in_stok_(Product p);
     public:
         inline Seller(std::string id, std::string name = "empty", std::string surname = "empty", 
                         std::string address = "empty", std::string town = "empty", std::string province = "empty", 

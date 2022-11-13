@@ -15,14 +15,13 @@ class Market{
         std::string slogan_;
 
         //Aditional
-        bool client_in_list_(Client client);
-        bool client_in_list_(std::string client_id);
-        bool product_in_seller_stock_(Product p);
-        bool seller_in_list_(Seller seller);
+        bool product_on_sale_(std::string product_id);
 
     public:
-        Market(std::string slogan):
+        inline Market(std::string slogan):
                 slogan_(slogan){}
+
+        inline ~Market(){}
 
         //Observers
         inline std::string get_slogan() const {return slogan_;}

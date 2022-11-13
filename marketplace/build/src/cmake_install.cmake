@@ -82,8 +82,3 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/market/cmake_install.cmake")
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/app/cmake_install.cmake")
-endif()
-

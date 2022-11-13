@@ -380,32 +380,6 @@ market_main/fast:
 .PHONY : market_main/fast
 
 #=============================================================================
-# Target rules for targets named app
-
-# Build rule for target.
-app: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
-.PHONY : app
-
-# fast build rule for target.
-app/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/build
-.PHONY : app/fast
-
-#=============================================================================
-# Target rules for targets named app_main
-
-# Build rule for target.
-app_main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app_main
-.PHONY : app_main
-
-# fast build rule for target.
-app_main/fast:
-	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/build
-.PHONY : app_main/fast
-
-#=============================================================================
 # Target rules for targets named person_test
 
 # Build rule for target.
@@ -587,8 +561,6 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
-	@echo "... app"
-	@echo "... app_main"
 	@echo "... basket"
 	@echo "... basket_main"
 	@echo "... basket_test"

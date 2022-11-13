@@ -1,10 +1,10 @@
-Start testing: Nov 13 11:34 CET
+Start testing: Nov 13 18:08 CET
 ----------------------------------------------------------
 1/9 Testing: person_gtests
 1/9 Test: person_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/person_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"person_gtests" start time: Nov 13 11:34 CET
+"person_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,7 +31,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Nov 13 11:34 CET
+"person_gtests" end time: Nov 13 18:08 CET
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Test Passed.
 2/9 Test: product_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/product_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"product_gtests" start time: Nov 13 11:34 CET
+"product_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Nov 13 11:34 CET
+"product_gtests" end time: Nov 13 18:08 CET
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 3/9 Test: tv_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/tv_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"tv_gtests" start time: Nov 13 11:34 CET
+"tv_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,7 +91,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Nov 13 11:34 CET
+"tv_gtests" end time: Nov 13 18:08 CET
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -99,7 +99,7 @@ Test Passed.
 4/9 Test: computer_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/computer_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"computer_gtests" start time: Nov 13 11:34 CET
+"computer_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,7 +120,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Nov 13 11:34 CET
+"computer_gtests" end time: Nov 13 18:08 CET
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -128,7 +128,7 @@ Test Passed.
 5/9 Test: basket_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/basket_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"basket_gtests" start time: Nov 13 11:34 CET
+"basket_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -151,7 +151,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Nov 13 11:34 CET
+"basket_gtests" end time: Nov 13 18:08 CET
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -159,7 +159,7 @@ Test Passed.
 6/9 Test: basket2_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/basket_test2"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"basket2_gtests" start time: Nov 13 11:34 CET
+"basket2_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 15 tests from 1 test suite.
@@ -204,7 +204,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket2_gtests" end time: Nov 13 11:34 CET
+"basket2_gtests" end time: Nov 13 18:08 CET
 "basket2_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 7/9 Test: client_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/client_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"client_gtests" start time: Nov 13 11:34 CET
+"client_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -243,7 +243,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"client_gtests" end time: Nov 13 11:34 CET
+"client_gtests" end time: Nov 13 18:08 CET
 "client_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -251,7 +251,7 @@ Test Passed.
 8/9 Test: seller_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/seller_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"seller_gtests" start time: Nov 13 11:34 CET
+"seller_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -282,7 +282,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"seller_gtests" end time: Nov 13 11:34 CET
+"seller_gtests" end time: Nov 13 18:08 CET
 "seller_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 9/9 Test: market_gtests
 Command: "/home/pacoalgar/Documentos/uco/poo/marketplace/build/tests/market_test"
 Directory: /home/pacoalgar/Documentos/uco/poo/marketplace/build/tests
-"market_gtests" start time: Nov 13 11:34 CET
+"market_gtests" start time: Nov 13 18:08 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 14 tests from 1 test suite.
@@ -315,173 +315,16 @@ Output:
 [ RUN      ] Basket.add_product_seller
 [       OK ] Basket.add_product_seller (0 ms)
 [ RUN      ] Basket.add_product_client
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:135: Failure
-Value of: m.add_product_client(p1, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:136: Failure
-Value of: m.add_product_client(p2, "C1")
-  Actual: false
-Expected: true
-[  FAILED  ] Basket.add_product_client (0 ms)
+[       OK ] Basket.add_product_client (0 ms)
 [ RUN      ] Basket.delete_product_seller
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:159: Failure
-Value of: m.delete_product_seller(p1, "S1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:163: Failure
-Value of: m.delete_product_seller(p3, "S2")
-  Actual: false
-Expected: true
-[  FAILED  ] Basket.delete_product_seller (0 ms)
+[       OK ] Basket.delete_product_seller (0 ms)
 [ RUN      ] Basket.delete_product_client
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:184: Failure
-Value of: m.add_product_client(p1, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:185: Failure
-Value of: m.add_product_client(p2, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:186: Failure
-Value of: m.add_product_client(p3, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:189: Failure
-Value of: m.delete_product_client(p4, "C1")
-  Actual: true
-Expected: false
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:191: Failure
-The difference between 60.0 and m.get_money_in_basket() is 60, which exceeds 0.1, where
-60.0 evaluates to 60,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:193: Failure
-The difference between 30.0 and m.get_money_in_basket() is 30, which exceeds 0.1, where
-30.0 evaluates to 30,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:196: Failure
-The difference between 10.0 and m.get_money_in_basket() is 10, which exceeds 0.1, where
-10.0 evaluates to 10,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:199: Failure
-The difference between 10.0 and m.get_money_in_basket() is 10, which exceeds 0.1, where
-10.0 evaluates to 10,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-[  FAILED  ] Basket.delete_product_client (0 ms)
-[ RUN      ] Basket.get_money_in_basket
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:223: Failure
-Value of: m.add_product_client(p1, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:224: Failure
-Value of: m.add_product_client(p2, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:225: Failure
-Value of: m.add_product_client(p3, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:226: Failure
-The difference between 60.0 and m.get_money_in_basket() is 60, which exceeds 0.1, where
-60.0 evaluates to 60,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:228: Failure
-Value of: m.add_product_client(p1, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:229: Failure
-The difference between 70.0 and m.get_money_in_basket() is 70, which exceeds 0.1, where
-70.0 evaluates to 70,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:232: Failure
-The difference between 70.0 and m.get_money_in_basket() is 70, which exceeds 0.1, where
-70.0 evaluates to 70,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:235: Failure
-The difference between 70.0 and m.get_money_in_basket() is 70, which exceeds 0.1, where
-70.0 evaluates to 70,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:237: Failure
-Value of: m.add_product_client(p4, "C2")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:238: Failure
-The difference between 75.0 and m.get_money_in_basket() is 75, which exceeds 0.1, where
-75.0 evaluates to 75,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:240: Failure
-Value of: m.add_product_client(p2, "C2")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:241: Failure
-The difference between 95.0 and m.get_money_in_basket() is 95, which exceeds 0.1, where
-95.0 evaluates to 95,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:244: Failure
-The difference between 95.0 and m.get_money_in_basket() is 95, which exceeds 0.1, where
-95.0 evaluates to 95,
-m.get_money_in_basket() evaluates to 0, and
-0.1 evaluates to 0.10000000000000001.
-[  FAILED  ] Basket.get_money_in_basket (0 ms)
-[ RUN      ] Basket.dump_market
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:272: Failure
-Value of: m.add_product_client(p1, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:273: Failure
-Value of: m.add_product_client(p2, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:274: Failure
-Value of: m.add_product_client(p2, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:275: Failure
-Value of: m.add_product_client(p3, "C1")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:277: Failure
-Value of: m.add_product_client(p5, "C2")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:278: Failure
-Value of: m.add_product_client(p1, "C2")
-  Actual: false
-Expected: true
-/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc:279: Failure
-Value of: m.add_product_client(p4, "C2")
-  Actual: false
-Expected: true
-[  FAILED  ] Basket.dump_market (0 ms)
-[----------] 14 tests from Basket (0 ms total)
-
-[----------] Global test environment tear-down
-[==========] 14 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 9 tests.
-[  FAILED  ] 5 tests, listed below:
-[  FAILED  ] Basket.add_product_client
-[  FAILED  ] Basket.delete_product_seller
-[  FAILED  ] Basket.delete_product_client
-[  FAILED  ] Basket.get_money_in_basket
-[  FAILED  ] Basket.dump_market
-
- 5 FAILED TESTS
 <end of output>
-Test time =   0.00 sec
+Test time =   0.08 sec
 ----------------------------------------------------------
 Test Failed.
-"market_gtests" end time: Nov 13 11:34 CET
+"market_gtests" end time: Nov 13 18:08 CET
 "market_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 13 11:34 CET
+End testing: Nov 13 18:08 CET
