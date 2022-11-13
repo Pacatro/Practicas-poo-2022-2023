@@ -1,0 +1,5 @@
+|CIENT ID | PRODUCT ID | PRODUCT QTY | PRICE U.|
+| C1    | 
+| C2    | 
+
+TOTAL: 0
