@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/client//CMakeFiles/progress.marks
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles 0
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/client//CMakeFiles/progress.marks
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/clean
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/client/CMakeFiles/client.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client.dir/rule
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client.dir/rule
 .PHONY : src/client/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ client: src/client/CMakeFiles/client.dir/rule
 
 # fast build rule for target.
 client/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/build
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
 # Convenience name for target.
 src/client/CMakeFiles/client_main.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client_main.dir/rule
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client_main.dir/rule
 .PHONY : src/client/CMakeFiles/client_main.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ client_main: src/client/CMakeFiles/client_main.dir/rule
 
 # fast build rule for target.
 client_main/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/build
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/build
 .PHONY : client_main/fast
 
 client.o: client.cc.o
@@ -204,7 +204,7 @@ client.o: client.cc.o
 
 # target to build an object file
 client.cc.o:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.o
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.o
 .PHONY : client.cc.o
 
 client.i: client.cc.i
@@ -212,7 +212,7 @@ client.i: client.cc.i
 
 # target to preprocess a source file
 client.cc.i:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.i
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.i
 .PHONY : client.cc.i
 
 client.s: client.cc.s
@@ -220,7 +220,7 @@ client.s: client.cc.s
 
 # target to generate assembly for a file
 client.cc.s:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.s
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/client.cc.s
 .PHONY : client.cc.s
 
 client_main.o: client_main.cc.o
@@ -228,7 +228,7 @@ client_main.o: client_main.cc.o
 
 # target to build an object file
 client_main.cc.o:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.o
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.o
 .PHONY : client_main.cc.o
 
 client_main.i: client_main.cc.i
@@ -236,7 +236,7 @@ client_main.i: client_main.cc.i
 
 # target to preprocess a source file
 client_main.cc.i:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.i
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.i
 .PHONY : client_main.cc.i
 
 client_main.s: client_main.cc.s
@@ -244,7 +244,7 @@ client_main.s: client_main.cc.s
 
 # target to generate assembly for a file
 client_main.cc.s:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.s
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/client_main.cc.s
 .PHONY : client_main.cc.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/market -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/client -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/seller -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/basket -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/product -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/person
+CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/client -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/product -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person
 
 CXX_FLAGS = -std=gnu++17
 

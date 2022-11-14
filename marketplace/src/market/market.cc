@@ -120,22 +120,23 @@ void Market::dump_market(){
 
     if(!file) std::cout<<"ERROR: Can't open file\n";
     
-
-    file << "|CIENT ID | PRODUCT ID | PRODUCT QTY | PRICE U.|\n";
+    file << "|-------------------------------------|\n";
+    file << "|CLIENT ID | PRODUCT ID | PRODUCT QTY |\n";
+    file << "|-------------------------------------|\n";
 
     for(auto it = client_list_.begin(); it != client_list_.end(); it++){
-        file << "| " << it->get_id() <<"      \n";
-        
-        for(std::string id : it->get_ids()){
-            file<<id << "       | \n";
-        }
+        std::vector<std::string> ids_products = it->get_ids();
+        std::vector<int> qs_products = it->get_qs();
 
-        for(int qs : it->get_qs()){
-            file << qs << "           | \n";
+
+        for(int i = 0; i<it->get_size(); i++){
+            file<<"|"<< it->get_id()<< "        |"<< ids_products[i]<< "          |"<< qs_products[i]<< "            |\n";
         }
     }
 
-    file << "\nTOTAL: " << get_money_in_basket();
+    file << "|-------------------------------------|\n";
+    file << "|TOTAL: " << get_money_in_basket()<<" €                         |\n";
+    file << "|-------------------------------------|\n";
 
     file.close();
 }

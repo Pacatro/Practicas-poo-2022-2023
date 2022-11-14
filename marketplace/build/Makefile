@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/poo/marketplace/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -380,6 +380,32 @@ market_main/fast:
 .PHONY : market_main/fast
 
 #=============================================================================
+# Target rules for targets named app
+
+# Build rule for target.
+app: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app
+.PHONY : app
+
+# fast build rule for target.
+app/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/build
+.PHONY : app/fast
+
+#=============================================================================
+# Target rules for targets named app_main
+
+# Build rule for target.
+app_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 app_main
+.PHONY : app_main
+
+# fast build rule for target.
+app_main/fast:
+	$(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/build
+.PHONY : app_main/fast
+
+#=============================================================================
 # Target rules for targets named person_test
 
 # Build rule for target.
@@ -561,6 +587,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... app"
+	@echo "... app_main"
 	@echo "... basket"
 	@echo "... basket_main"
 	@echo "... basket_test"

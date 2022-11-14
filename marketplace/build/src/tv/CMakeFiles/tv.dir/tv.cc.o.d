@@ -1,7 +1,7 @@
 src/tv/CMakeFiles/tv.dir/tv.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/tv/tv.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/tv/tv.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/tv/tv.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/tv/tv.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -130,4 +130,4 @@ src/tv/CMakeFiles/tv.dir/tv.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/tv/../product/product.h
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/tv/../product/product.h

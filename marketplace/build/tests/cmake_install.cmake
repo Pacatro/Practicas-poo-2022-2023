@@ -1,4 +1,4 @@
-# Install script for directory: /home/pacoalgar/Documentos/uco/poo/marketplace/tests
+# Install script for directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,6 +44,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-build/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-build/cmake_install.cmake")
 endif()
 

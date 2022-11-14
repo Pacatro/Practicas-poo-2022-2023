@@ -1,7 +1,7 @@
 src/market/CMakeFiles/market.dir/market.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/market.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/market.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/market.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/market.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -159,9 +159,9 @@ src/market/CMakeFiles/market.dir/market.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../client/client.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../client/../person/person.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../client/../basket/basket.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../client/client.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../client/../person/person.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../client/../basket/basket.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
@@ -174,8 +174,8 @@ src/market/CMakeFiles/market.dir/market.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../client/../basket/../product/product.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../seller/seller.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../seller/../person/person.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../seller/../product/product.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/market/../seller/../basket/basket.h
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../client/../basket/../product/product.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../seller/seller.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../seller/../person/person.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../seller/../product/product.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market/../seller/../basket/basket.h

@@ -1,7 +1,7 @@
 src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/computer_main.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/computer_main.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/computer.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/computer.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -130,7 +130,7 @@ src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/../product/product.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/../product/product.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/exception \
  /usr/include/c++/11/bits/exception_ptr.h \
