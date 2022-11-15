@@ -1,10 +1,10 @@
-Start testing: Nov 14 12:20 CET
+Start testing: Nov 15 18:16 CET
 ----------------------------------------------------------
 1/9 Testing: person_gtests
 1/9 Test: person_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/person_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"person_gtests" start time: Nov 14 12:20 CET
+"person_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -28,10 +28,10 @@ Output:
 [==========] 6 tests from 1 test suite ran. (0 ms total)
 [  PASSED  ] 6 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Nov 14 12:20 CET
+"person_gtests" end time: Nov 15 18:16 CET
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Test Passed.
 2/9 Test: product_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/product_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"product_gtests" start time: Nov 14 12:20 CET
+"product_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Nov 14 12:20 CET
+"product_gtests" end time: Nov 15 18:16 CET
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 3/9 Test: tv_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/tv_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"tv_gtests" start time: Nov 14 12:20 CET
+"tv_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,7 +91,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Nov 14 12:20 CET
+"tv_gtests" end time: Nov 15 18:16 CET
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -99,7 +99,7 @@ Test Passed.
 4/9 Test: computer_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/computer_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"computer_gtests" start time: Nov 14 12:20 CET
+"computer_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,7 +120,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Nov 14 12:20 CET
+"computer_gtests" end time: Nov 15 18:16 CET
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -128,7 +128,7 @@ Test Passed.
 5/9 Test: basket_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/basket_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"basket_gtests" start time: Nov 14 12:20 CET
+"basket_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -151,7 +151,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Nov 14 12:20 CET
+"basket_gtests" end time: Nov 15 18:16 CET
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -159,7 +159,7 @@ Test Passed.
 6/9 Test: basket2_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/basket_test2"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"basket2_gtests" start time: Nov 14 12:20 CET
+"basket2_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 15 tests from 1 test suite.
@@ -204,7 +204,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket2_gtests" end time: Nov 14 12:20 CET
+"basket2_gtests" end time: Nov 15 18:16 CET
 "basket2_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -212,7 +212,7 @@ Test Passed.
 7/9 Test: client_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/client_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"client_gtests" start time: Nov 14 12:20 CET
+"client_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -243,7 +243,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"client_gtests" end time: Nov 14 12:20 CET
+"client_gtests" end time: Nov 15 18:16 CET
 "client_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -251,7 +251,7 @@ Test Passed.
 8/9 Test: seller_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/seller_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"seller_gtests" start time: Nov 14 12:20 CET
+"seller_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -282,7 +282,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"seller_gtests" end time: Nov 14 12:20 CET
+"seller_gtests" end time: Nov 15 18:16 CET
 "seller_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -290,7 +290,7 @@ Test Passed.
 9/9 Test: market_gtests
 Command: "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests/market_test"
 Directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/tests
-"market_gtests" start time: Nov 14 12:20 CET
+"market_gtests" start time: Nov 15 18:16 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 14 tests from 1 test suite.
@@ -333,8 +333,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"market_gtests" end time: Nov 14 12:20 CET
+"market_gtests" end time: Nov 15 18:16 CET
 "market_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 14 12:20 CET
+End testing: Nov 15 18:16 CET
