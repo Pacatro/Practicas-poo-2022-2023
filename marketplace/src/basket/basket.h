@@ -1,3 +1,6 @@
+// basket.h: Paco Algar
+// Defining class Basket
+
 #ifndef BASKET_H
 #define BASKET_H
 

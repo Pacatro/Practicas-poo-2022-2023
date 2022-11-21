@@ -181,74 +181,8 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  ../src/app/app.h \
-  ../src/market/market.h \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/include/c++/11/fstream \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc \
-  ../src/client/client.h \
-  ../src/person/person.h \
-  ../src/basket/basket.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  ../src/product/product.h \
-  ../src/seller/seller.h \
-  ../src/person/person.h \
-  ../src/product/product.h \
-  ../src/basket/basket.h
+  ../src/app/app.h
 
-
-../src/seller/seller.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/usr/include/c++/11/bits/fstream.tcc:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h:
-
-/usr/include/c++/11/bits/stl_list.h:
-
-../src/market/market.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/bits/stl_bvector.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
-
-/usr/include/c++/11/vector:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -257,8 +191,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/c++/11/bits/basic_ios.tcc:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/c++/11/bits/list.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
@@ -275,8 +207,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/c++/11/stdexcept:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/bits/stl_vector.h:
 
 /usr/include/c++/11/system_error:
 
@@ -296,13 +226,9 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/usr/include/c++/11/utility:
-
 /usr/include/errno.h:
 
 /usr/include/c++/11/cerrno:
-
-../src/product/product.h:
 
 /usr/include/stdio.h:
 
@@ -318,13 +244,9 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/c++/11/initializer_list:
 
-/usr/include/c++/11/map:
-
 /usr/include/c++/11/bits/range_access.h:
 
 /usr/include/c++/11/bits/stl_function.h:
-
-/usr/include/c++/11/fstream:
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
@@ -337,8 +259,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/c++/11/ostream:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
-
-../src/person/person.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -354,11 +274,7 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
-/usr/include/c++/11/bits/allocated_ptr.h:
-
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-../src/client/client.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -371,8 +287,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
 
 /usr/include/c++/11/iosfwd:
-
-/usr/include/c++/11/bits/codecvt.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
@@ -396,11 +310,7 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
-/usr/include/c++/11/ext/aligned_buffer.h:
-
 /usr/include/endian.h:
-
-/usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/features.h:
 
@@ -494,15 +404,11 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/c++/11/bits/postypes.h:
 
-/usr/include/c++/11/bits/invoke.h:
-
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
-
-../src/basket/basket.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -520,8 +426,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
-/usr/include/c++/11/bits/node_handle.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
@@ -535,8 +439,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
 /usr/include/c++/11/exception:
-
-/usr/include/c++/11/list:
 
 /usr/include/c++/11/ext/string_conversions.h:
 
@@ -565,10 +467,6 @@ src/app/CMakeFiles/app_main.dir/app_main.cc.o: ../src/app/app_main.cc \
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/move.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/type_traits:
 

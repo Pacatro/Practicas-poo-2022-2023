@@ -1,3 +1,6 @@
+// market.h: Paco Algar
+// Defining class Market
+
 #ifndef MARKET_H
 #define MARKET_H
 

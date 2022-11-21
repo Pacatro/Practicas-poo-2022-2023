@@ -1,3 +1,6 @@
+// seller.h: Paco Algar
+// Defining class Seller
+
 #ifndef SELLER_H
 #define SELLER_H
 
@@ -17,10 +20,11 @@ class Seller: public Person, public Basket{
                         std::string country = "empty", int entry_year = 0, std::string sector = ""):
                         Person(id, name, surname, address, town, province, country, entry_year), sector_(sector){}
 
+        inline ~Seller(){}
+
         inline std::string get_sector() const {return sector_;}
         inline void set_sector(std::string sector){sector_ = sector;}
 
-        inline float get_total() {return get_total();}        
 };
 
 #endif

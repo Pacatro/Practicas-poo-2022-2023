@@ -1,3 +1,6 @@
+// person.h: Paco Algar
+// Defining class Person
+
 #ifndef PERSON_H
 #define PERSON_H
 
@@ -22,6 +25,8 @@ class Person{
                     }
 
         }
+
+        inline ~Person(){}
 
         inline std::string get_id() const {return id_;}
         inline std::string get_name() const {return name_;}        

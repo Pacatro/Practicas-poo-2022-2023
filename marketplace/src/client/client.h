@@ -1,3 +1,6 @@
+// client.h: Paco Algar
+// Defining class Client
+
 #ifndef CLIENT_H
 #define CLIENT_H
 
