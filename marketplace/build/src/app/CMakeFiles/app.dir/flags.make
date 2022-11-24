@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/app
+CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/app
 
 CXX_FLAGS = -std=gnu++17
 

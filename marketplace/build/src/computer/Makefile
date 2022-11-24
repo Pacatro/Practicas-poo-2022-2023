@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer//CMakeFiles/progress.marks
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles 0
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer//CMakeFiles/progress.marks
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/clean
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/preinstall
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/preinstall
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/computer/CMakeFiles/computer.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/CMakeFiles/computer.dir/rule
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/CMakeFiles/computer.dir/rule
 .PHONY : src/computer/CMakeFiles/computer.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ computer: src/computer/CMakeFiles/computer.dir/rule
 
 # fast build rule for target.
 computer/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/build
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/build
 .PHONY : computer/fast
 
 # Convenience name for target.
 src/computer/CMakeFiles/computer_main.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/CMakeFiles/computer_main.dir/rule
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/computer/CMakeFiles/computer_main.dir/rule
 .PHONY : src/computer/CMakeFiles/computer_main.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ computer_main: src/computer/CMakeFiles/computer_main.dir/rule
 
 # fast build rule for target.
 computer_main/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/build
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/build
 .PHONY : computer_main/fast
 
 computer.o: computer.cc.o
@@ -204,7 +204,7 @@ computer.o: computer.cc.o
 
 # target to build an object file
 computer.cc.o:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.o
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.o
 .PHONY : computer.cc.o
 
 computer.i: computer.cc.i
@@ -212,7 +212,7 @@ computer.i: computer.cc.i
 
 # target to preprocess a source file
 computer.cc.i:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.i
 .PHONY : computer.cc.i
 
 computer.s: computer.cc.s
@@ -220,7 +220,7 @@ computer.s: computer.cc.s
 
 # target to generate assembly for a file
 computer.cc.s:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer.dir/build.make src/computer/CMakeFiles/computer.dir/computer.cc.s
 .PHONY : computer.cc.s
 
 computer_main.o: computer_main.cc.o
@@ -228,7 +228,7 @@ computer_main.o: computer_main.cc.o
 
 # target to build an object file
 computer_main.cc.o:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o
 .PHONY : computer_main.cc.o
 
 computer_main.i: computer_main.cc.i
@@ -236,7 +236,7 @@ computer_main.i: computer_main.cc.i
 
 # target to preprocess a source file
 computer_main.cc.i:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.i
 .PHONY : computer_main.cc.i
 
 computer_main.s: computer_main.cc.s
@@ -244,7 +244,7 @@ computer_main.s: computer_main.cc.s
 
 # target to generate assembly for a file
 computer_main.cc.s:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/computer/CMakeFiles/computer_main.dir/build.make src/computer/CMakeFiles/computer_main.dir/computer_main.cc.s
 .PHONY : computer_main.cc.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

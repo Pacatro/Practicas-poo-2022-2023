@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
 
 # Include any dependencies generated for this target.
 include src/person/CMakeFiles/person_main.dir/depend.make
@@ -72,16 +72,16 @@ include src/person/CMakeFiles/person_main.dir/flags.make
 src/person/CMakeFiles/person_main.dir/person_main.cc.o: src/person/CMakeFiles/person_main.dir/flags.make
 src/person/CMakeFiles/person_main.dir/person_main.cc.o: ../src/person/person_main.cc
 src/person/CMakeFiles/person_main.dir/person_main.cc.o: src/person/CMakeFiles/person_main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/person/CMakeFiles/person_main.dir/person_main.cc.o"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/person/CMakeFiles/person_main.dir/person_main.cc.o -MF CMakeFiles/person_main.dir/person_main.cc.o.d -o CMakeFiles/person_main.dir/person_main.cc.o -c /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person/person_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/person/CMakeFiles/person_main.dir/person_main.cc.o"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/person/CMakeFiles/person_main.dir/person_main.cc.o -MF CMakeFiles/person_main.dir/person_main.cc.o.d -o CMakeFiles/person_main.dir/person_main.cc.o -c /home/pacoalgar/Documentos/uco/poo/marketplace/src/person/person_main.cc
 
 src/person/CMakeFiles/person_main.dir/person_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/person_main.dir/person_main.cc.i"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person/person_main.cc > CMakeFiles/person_main.dir/person_main.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/poo/marketplace/src/person/person_main.cc > CMakeFiles/person_main.dir/person_main.cc.i
 
 src/person/CMakeFiles/person_main.dir/person_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/person_main.dir/person_main.cc.s"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person/person_main.cc -o CMakeFiles/person_main.dir/person_main.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/poo/marketplace/src/person/person_main.cc -o CMakeFiles/person_main.dir/person_main.cc.s
 
 # Object files for target person_main
 person_main_OBJECTS = \
@@ -94,18 +94,18 @@ src/person/person_main: src/person/CMakeFiles/person_main.dir/person_main.cc.o
 src/person/person_main: src/person/CMakeFiles/person_main.dir/build.make
 src/person/person_main: src/person/libperson.a
 src/person/person_main: src/person/CMakeFiles/person_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable person_main"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_main.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable person_main"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/person_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/person/CMakeFiles/person_main.dir/build: src/person/person_main
 .PHONY : src/person/CMakeFiles/person_main.dir/build
 
 src/person/CMakeFiles/person_main.dir/clean:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person && $(CMAKE_COMMAND) -P CMakeFiles/person_main.dir/cmake_clean.cmake
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person && $(CMAKE_COMMAND) -P CMakeFiles/person_main.dir/cmake_clean.cmake
 .PHONY : src/person/CMakeFiles/person_main.dir/clean
 
 src/person/CMakeFiles/person_main.dir/depend:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person/CMakeFiles/person_main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/poo/marketplace /home/pacoalgar/Documentos/uco/poo/marketplace/src/person /home/pacoalgar/Documentos/uco/poo/marketplace/build /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person/CMakeFiles/person_main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/person/CMakeFiles/person_main.dir/depend
 

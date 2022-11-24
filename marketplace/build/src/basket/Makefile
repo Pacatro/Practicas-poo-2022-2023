@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/basket//CMakeFiles/progress.marks
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles 0
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/basket//CMakeFiles/progress.marks
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/clean
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/preinstall
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/preinstall
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/basket/CMakeFiles/basket.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/CMakeFiles/basket.dir/rule
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/CMakeFiles/basket.dir/rule
 .PHONY : src/basket/CMakeFiles/basket.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ basket: src/basket/CMakeFiles/basket.dir/rule
 
 # fast build rule for target.
 basket/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/build
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/build
 .PHONY : basket/fast
 
 # Convenience name for target.
 src/basket/CMakeFiles/basket_main.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/CMakeFiles/basket_main.dir/rule
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/basket/CMakeFiles/basket_main.dir/rule
 .PHONY : src/basket/CMakeFiles/basket_main.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ basket_main: src/basket/CMakeFiles/basket_main.dir/rule
 
 # fast build rule for target.
 basket_main/fast:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/build
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/build
 .PHONY : basket_main/fast
 
 basket.o: basket.cc.o
@@ -204,7 +204,7 @@ basket.o: basket.cc.o
 
 # target to build an object file
 basket.cc.o:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.o
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.o
 .PHONY : basket.cc.o
 
 basket.i: basket.cc.i
@@ -212,7 +212,7 @@ basket.i: basket.cc.i
 
 # target to preprocess a source file
 basket.cc.i:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.i
 .PHONY : basket.cc.i
 
 basket.s: basket.cc.s
@@ -220,7 +220,7 @@ basket.s: basket.cc.s
 
 # target to generate assembly for a file
 basket.cc.s:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket.dir/build.make src/basket/CMakeFiles/basket.dir/basket.cc.s
 .PHONY : basket.cc.s
 
 basket_main.o: basket_main.cc.o
@@ -228,7 +228,7 @@ basket_main.o: basket_main.cc.o
 
 # target to build an object file
 basket_main.cc.o:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o
 .PHONY : basket_main.cc.o
 
 basket_main.i: basket_main.cc.i
@@ -236,7 +236,7 @@ basket_main.i: basket_main.cc.i
 
 # target to preprocess a source file
 basket_main.cc.i:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.i
 .PHONY : basket_main.cc.i
 
 basket_main.s: basket_main.cc.s
@@ -244,7 +244,7 @@ basket_main.s: basket_main.cc.s
 
 # target to generate assembly for a file
 basket_main.cc.s:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/basket/CMakeFiles/basket_main.dir/build.make src/basket/CMakeFiles/basket_main.dir/basket_main.cc.s
 .PHONY : basket_main.cc.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/market -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/person -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/product -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/client -I/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket -isystem /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-src/googletest/include -isystem /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/market -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/person -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/product -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/seller -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/client -I/home/pacoalgar/Documentos/uco/poo/marketplace/src/basket -isystem /home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-src/googletest/include -isystem /home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=gnu++17
 

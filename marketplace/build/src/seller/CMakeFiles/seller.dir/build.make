@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
 
 # Include any dependencies generated for this target.
 include src/seller/CMakeFiles/seller.dir/depend.make
@@ -72,16 +72,16 @@ include src/seller/CMakeFiles/seller.dir/flags.make
 src/seller/CMakeFiles/seller.dir/seller.cc.o: src/seller/CMakeFiles/seller.dir/flags.make
 src/seller/CMakeFiles/seller.dir/seller.cc.o: ../src/seller/seller.cc
 src/seller/CMakeFiles/seller.dir/seller.cc.o: src/seller/CMakeFiles/seller.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/seller/CMakeFiles/seller.dir/seller.cc.o"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/seller/CMakeFiles/seller.dir/seller.cc.o -MF CMakeFiles/seller.dir/seller.cc.o.d -o CMakeFiles/seller.dir/seller.cc.o -c /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/seller.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/seller/CMakeFiles/seller.dir/seller.cc.o"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/seller/CMakeFiles/seller.dir/seller.cc.o -MF CMakeFiles/seller.dir/seller.cc.o.d -o CMakeFiles/seller.dir/seller.cc.o -c /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/seller.cc
 
 src/seller/CMakeFiles/seller.dir/seller.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/seller.dir/seller.cc.i"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/seller.cc > CMakeFiles/seller.dir/seller.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/seller.cc > CMakeFiles/seller.dir/seller.cc.i
 
 src/seller/CMakeFiles/seller.dir/seller.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/seller.dir/seller.cc.s"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/seller.cc -o CMakeFiles/seller.dir/seller.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/seller.cc -o CMakeFiles/seller.dir/seller.cc.s
 
 # Object files for target seller
 seller_OBJECTS = \
@@ -93,19 +93,19 @@ seller_EXTERNAL_OBJECTS =
 src/seller/libseller.a: src/seller/CMakeFiles/seller.dir/seller.cc.o
 src/seller/libseller.a: src/seller/CMakeFiles/seller.dir/build.make
 src/seller/libseller.a: src/seller/CMakeFiles/seller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libseller.a"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && $(CMAKE_COMMAND) -P CMakeFiles/seller.dir/cmake_clean_target.cmake
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/seller.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libseller.a"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && $(CMAKE_COMMAND) -P CMakeFiles/seller.dir/cmake_clean_target.cmake
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/seller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/seller/CMakeFiles/seller.dir/build: src/seller/libseller.a
 .PHONY : src/seller/CMakeFiles/seller.dir/build
 
 src/seller/CMakeFiles/seller.dir/clean:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller && $(CMAKE_COMMAND) -P CMakeFiles/seller.dir/cmake_clean.cmake
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller && $(CMAKE_COMMAND) -P CMakeFiles/seller.dir/cmake_clean.cmake
 .PHONY : src/seller/CMakeFiles/seller.dir/clean
 
 src/seller/CMakeFiles/seller.dir/depend:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller/CMakeFiles/seller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/poo/marketplace /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller /home/pacoalgar/Documentos/uco/poo/marketplace/build /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller/CMakeFiles/seller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/seller/CMakeFiles/seller.dir/depend
 

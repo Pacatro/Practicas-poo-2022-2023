@@ -1,4 +1,4 @@
-# Install script for directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src
+# Install script for directory: /home/pacoalgar/Documentos/uco/poo/marketplace/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,46 +44,46 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/product/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/product/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/tv/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/tv/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/basket/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/basket/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/client/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/client/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/market/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/market/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/app/cmake_install.cmake")
+  include("/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/app/cmake_install.cmake")
 endif()
 

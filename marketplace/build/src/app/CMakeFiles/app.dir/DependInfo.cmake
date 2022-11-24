@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/app/app.cc" "src/app/CMakeFiles/app.dir/app.cc.o" "gcc" "src/app/CMakeFiles/app.dir/app.cc.o.d"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/src/app/app.cc" "src/app/CMakeFiles/app.dir/app.cc.o" "gcc" "src/app/CMakeFiles/app.dir/app.cc.o.d"
   )
 
 # Targets to which this target links.

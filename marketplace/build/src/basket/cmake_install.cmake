@@ -1,4 +1,4 @@
-# Install script for directory: /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket
+# Install script for directory: /home/pacoalgar/Documentos/uco/poo/marketplace/src/basket
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

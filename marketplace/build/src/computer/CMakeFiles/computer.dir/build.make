@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
 
 # Include any dependencies generated for this target.
 include src/computer/CMakeFiles/computer.dir/depend.make
@@ -72,16 +72,16 @@ include src/computer/CMakeFiles/computer.dir/flags.make
 src/computer/CMakeFiles/computer.dir/computer.cc.o: src/computer/CMakeFiles/computer.dir/flags.make
 src/computer/CMakeFiles/computer.dir/computer.cc.o: ../src/computer/computer.cc
 src/computer/CMakeFiles/computer.dir/computer.cc.o: src/computer/CMakeFiles/computer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/computer/CMakeFiles/computer.dir/computer.cc.o"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/computer/CMakeFiles/computer.dir/computer.cc.o -MF CMakeFiles/computer.dir/computer.cc.o.d -o CMakeFiles/computer.dir/computer.cc.o -c /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/computer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/computer/CMakeFiles/computer.dir/computer.cc.o"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/computer/CMakeFiles/computer.dir/computer.cc.o -MF CMakeFiles/computer.dir/computer.cc.o.d -o CMakeFiles/computer.dir/computer.cc.o -c /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/computer.cc
 
 src/computer/CMakeFiles/computer.dir/computer.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/computer.dir/computer.cc.i"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/computer.cc > CMakeFiles/computer.dir/computer.cc.i
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/computer.cc > CMakeFiles/computer.dir/computer.cc.i
 
 src/computer/CMakeFiles/computer.dir/computer.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/computer.dir/computer.cc.s"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer/computer.cc -o CMakeFiles/computer.dir/computer.cc.s
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer/computer.cc -o CMakeFiles/computer.dir/computer.cc.s
 
 # Object files for target computer
 computer_OBJECTS = \
@@ -93,19 +93,19 @@ computer_EXTERNAL_OBJECTS =
 src/computer/libcomputer.a: src/computer/CMakeFiles/computer.dir/computer.cc.o
 src/computer/libcomputer.a: src/computer/CMakeFiles/computer.dir/build.make
 src/computer/libcomputer.a: src/computer/CMakeFiles/computer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcomputer.a"
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && $(CMAKE_COMMAND) -P CMakeFiles/computer.dir/cmake_clean_target.cmake
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/computer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcomputer.a"
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && $(CMAKE_COMMAND) -P CMakeFiles/computer.dir/cmake_clean_target.cmake
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/computer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/computer/CMakeFiles/computer.dir/build: src/computer/libcomputer.a
 .PHONY : src/computer/CMakeFiles/computer.dir/build
 
 src/computer/CMakeFiles/computer.dir/clean:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer && $(CMAKE_COMMAND) -P CMakeFiles/computer.dir/cmake_clean.cmake
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer && $(CMAKE_COMMAND) -P CMakeFiles/computer.dir/cmake_clean.cmake
 .PHONY : src/computer/CMakeFiles/computer.dir/clean
 
 src/computer/CMakeFiles/computer.dir/depend:
-	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/computer /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/computer/CMakeFiles/computer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pacoalgar/Documentos/uco/poo/marketplace /home/pacoalgar/Documentos/uco/poo/marketplace/src/computer /home/pacoalgar/Documentos/uco/poo/marketplace/build /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/computer/CMakeFiles/computer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/computer/CMakeFiles/computer.dir/depend
 

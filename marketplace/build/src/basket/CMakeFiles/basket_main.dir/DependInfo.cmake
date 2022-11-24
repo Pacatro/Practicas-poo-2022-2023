@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket/basket_main.cc" "src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o" "gcc" "src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o.d"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/src/basket/basket_main.cc" "src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o" "gcc" "src/basket/CMakeFiles/basket_main.dir/basket_main.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/basket/CMakeFiles/basket.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/basket/CMakeFiles/basket.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

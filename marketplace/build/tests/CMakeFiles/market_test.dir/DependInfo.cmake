@@ -8,19 +8,19 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/tests/market_test.cc" "tests/CMakeFiles/market_test.dir/market_test.cc.o" "gcc" "tests/CMakeFiles/market_test.dir/market_test.cc.o.d"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/tests/market_test.cc" "tests/CMakeFiles/market_test.dir/market_test.cc.o" "gcc" "tests/CMakeFiles/market_test.dir/market_test.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/market/CMakeFiles/market.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person/CMakeFiles/person.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/product/CMakeFiles/product.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/seller/CMakeFiles/seller.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/client/CMakeFiles/client.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/basket/CMakeFiles/basket.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/market/CMakeFiles/market.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person/CMakeFiles/person.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/product/CMakeFiles/product.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/seller/CMakeFiles/seller.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/client/CMakeFiles/client.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/basket/CMakeFiles/basket.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
