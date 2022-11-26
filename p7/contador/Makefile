@@ -14,9 +14,9 @@
 
 # Points to the root of Google Test, relative to where this file is.
 # Remember to tweak this if you move this file.
-GTEST_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-src/googletest
+GTEST_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-src/googletest
 # Where to find user code.
-# USER_DIR = ./contador
+# USER_DIR = ../samples
 
 # Flags passed to the preprocessor.
 # Set Google Test's header directory as a system directory, such that

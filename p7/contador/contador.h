@@ -18,9 +18,9 @@ class Contador{
         Contador operator++(int);  //c++
         Contador operator--(void); //--c
         Contador operator--(int);  //c--
-        friend Contador operator+(const Contador &c, int); //c + 10
+        Contador operator+(const int); //c + 10
         friend Contador operator+(int, const Contador &c); //10 + c
-        friend Contador operator-(const Contador &c, int); //c - 10
+        Contador operator-(const int); //c - 10
         friend Contador operator-(int, const Contador &c); //10 - c
         friend std::ostream &operator<<(std::ostream &stream, const Contador &c);
         friend std::istream &operator>>(std::istream &stream, const Contador &c);

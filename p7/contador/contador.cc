@@ -90,7 +90,7 @@ Contador Contador::operator--(int){
 }
 
 Contador operator+(int value, const Contador &c){
-    Contador aux(0, 0, 1000);
+    Contador aux = c;
 
     aux.valor_ = value + c.valor_;
 
@@ -101,20 +101,20 @@ Contador operator+(int value, const Contador &c){
     return aux;
 }
 
-Contador operator+(const Contador &c, int value){
-    Contador aux(0, 0, 1000);
+Contador Contador::operator+(const int value){
+    Contador aux = *this;
 
-    aux.valor_ = c.valor_ + value;
+    aux.valor_ = valor_ + value;
 
-    if(aux.valor_ > c.max_){
-        aux.valor_ = c.max_;
+    if(aux.valor_ > max_){
+        aux.valor_ = max_;
     }
 
     return aux;
 }
 
 Contador operator-(int value, const Contador &c){
-    Contador aux(0, 0, 1000);
+    Contador aux = c;
 
     aux.valor_ = value - c.valor_;
 
@@ -125,31 +125,40 @@ Contador operator-(int value, const Contador &c){
     return aux;
 }
 
-Contador operator-(const Contador &c, int value){
-    Contador aux(0, 0, 1000);
+Contador Contador::operator-(const int value){
+    Contador aux = *this;
 
-    aux.valor_ = c.valor_ - value;
+    aux.valor_ = valor_ - value;
 
-    if(aux.valor_ < c.min_){
-        aux.valor_ = c.min_;
+    if(aux.valor_ < min_){
+        aux.valor_ = min_;
     }
 
     return aux;
 }
 
 std::ostream &operator<<(std::ostream &stream, const Contador &c){
-    stream << "Value: " << c.valor_;
+    
+    stream << c.valor_;
     
     return stream;
 }
 
 std::istream &operator>>(std::istream &stream, const Contador &c){
-    stream >> c.valor_;
-    
-    if(c.valor_ < c.min_ || c.valor_ > c.max_){
-        std::cout << "Incorrect value\n";
+    bool error = false;
+
+    while(error){
+        std::cout<<"Introduce el valor del contador: ";
+        stream >> c.valor_;
+
+        if(c.valor_ > c.min_ || c.valor_ < c.max_){
+            std::cout<<"Valor correcto\n";
+        }
+
+        std::cout<<"Valor incorrecto\n";
+        error = true;
     }
 
     return stream;
-    
+
 }
