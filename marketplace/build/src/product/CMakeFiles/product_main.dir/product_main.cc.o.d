@@ -1,7 +1,7 @@
 src/product/CMakeFiles/product_main.dir/product_main.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/product/product_main.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/product/product_main.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/product/product.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/product/product.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

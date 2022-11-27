@@ -1,7 +1,7 @@
 src/basket/CMakeFiles/basket.dir/basket.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/basket/basket.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket/basket.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/basket/basket.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket/basket.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -146,4 +146,4 @@ src/basket/CMakeFiles/basket.dir/basket.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/basket/../product/product.h
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/basket/../product/product.h

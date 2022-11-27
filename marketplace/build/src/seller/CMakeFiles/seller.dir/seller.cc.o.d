@@ -1,7 +1,7 @@
 src/seller/CMakeFiles/seller.dir/seller.cc.o: \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/seller.cc \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/seller.cc \
  /usr/include/stdc-predef.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/seller.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/seller.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -134,9 +134,9 @@ src/seller/CMakeFiles/seller.dir/seller.cc.o: \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/../person/person.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/../product/product.h \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/../basket/basket.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/../person/person.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/../product/product.h \
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/../basket/basket.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
@@ -149,4 +149,4 @@ src/seller/CMakeFiles/seller.dir/seller.cc.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/pacoalgar/Documentos/uco/poo/marketplace/src/seller/../basket/../product/product.h
+ /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/src/seller/../basket/../product/product.h

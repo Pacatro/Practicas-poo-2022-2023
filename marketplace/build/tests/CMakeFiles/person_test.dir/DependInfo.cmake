@@ -8,14 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/pacoalgar/Documentos/uco/poo/marketplace/tests/person_test.cc" "tests/CMakeFiles/person_test.dir/person_test.cc.o" "gcc" "tests/CMakeFiles/person_test.dir/person_test.cc.o.d"
+  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/tests/person_test.cc" "tests/CMakeFiles/person_test.dir/person_test.cc.o" "gcc" "tests/CMakeFiles/person_test.dir/person_test.cc.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/src/person/CMakeFiles/person.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/pacoalgar/Documentos/uco/poo/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/person/CMakeFiles/person.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

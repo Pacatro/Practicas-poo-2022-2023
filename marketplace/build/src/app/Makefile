@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace
+CMAKE_SOURCE_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/poo/marketplace/build
+CMAKE_BINARY_DIR = /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/poo/marketplace/build/src/app//CMakeFiles/progress.marks
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/poo/marketplace/build/CMakeFiles 0
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/src/app//CMakeFiles/progress.marks
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/clean
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/preinstall
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/preinstall
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/app/CMakeFiles/app.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/app.dir/rule
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/app.dir/rule
 .PHONY : src/app/CMakeFiles/app.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ app: src/app/CMakeFiles/app.dir/rule
 
 # fast build rule for target.
 app/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/build
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/build
 .PHONY : app/fast
 
 # Convenience name for target.
 src/app/CMakeFiles/app_main.dir/rule:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/app_main.dir/rule
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/app/CMakeFiles/app_main.dir/rule
 .PHONY : src/app/CMakeFiles/app_main.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ app_main: src/app/CMakeFiles/app_main.dir/rule
 
 # fast build rule for target.
 app_main/fast:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/build
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/build
 .PHONY : app_main/fast
 
 app.o: app.cc.o
@@ -204,7 +204,7 @@ app.o: app.cc.o
 
 # target to build an object file
 app.cc.o:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.o
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.o
 .PHONY : app.cc.o
 
 app.i: app.cc.i
@@ -212,7 +212,7 @@ app.i: app.cc.i
 
 # target to preprocess a source file
 app.cc.i:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.i
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.i
 .PHONY : app.cc.i
 
 app.s: app.cc.s
@@ -220,7 +220,7 @@ app.s: app.cc.s
 
 # target to generate assembly for a file
 app.cc.s:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.s
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app.dir/build.make src/app/CMakeFiles/app.dir/app.cc.s
 .PHONY : app.cc.s
 
 app_main.o: app_main.cc.o
@@ -228,7 +228,7 @@ app_main.o: app_main.cc.o
 
 # target to build an object file
 app_main.cc.o:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.o
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.o
 .PHONY : app_main.cc.o
 
 app_main.i: app_main.cc.i
@@ -236,7 +236,7 @@ app_main.i: app_main.cc.i
 
 # target to preprocess a source file
 app_main.cc.i:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.i
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.i
 .PHONY : app_main.cc.i
 
 app_main.s: app_main.cc.s
@@ -244,7 +244,7 @@ app_main.s: app_main.cc.s
 
 # target to generate assembly for a file
 app_main.cc.s:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.s
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(MAKE) $(MAKESILENT) -f src/app/CMakeFiles/app_main.dir/build.make src/app/CMakeFiles/app_main.dir/app_main.cc.s
 .PHONY : app_main.cc.s
 
 # Help Target
@@ -279,6 +279,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pacoalgar/Documentos/uco/poo/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pacoalgar/Documentos/uco/Practicas-poo-2022-2023/marketplace/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
