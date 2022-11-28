@@ -1,3 +1,6 @@
+//computer_main.cc: Paco Algar
+//Main program to prove Computer class
+
 #include "computer.h"
 #include <iostream>
 

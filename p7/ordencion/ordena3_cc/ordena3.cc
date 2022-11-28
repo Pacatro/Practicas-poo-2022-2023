@@ -1,3 +1,6 @@
+//ordena3.cc: Paco Algar
+//Sort float array in ascending and descending order
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

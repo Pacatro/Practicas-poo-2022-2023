@@ -1,3 +1,6 @@
+//ordena2.cc: Paco Algar
+//Sort int array in ascending and descending order
+
 #include <iostream>
 #include <algorithm>
 #include <vector>

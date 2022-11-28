@@ -1,5 +1,5 @@
 // seller.h: Paco Algar
-// Defining class Seller
+// Defining Seller class
 
 #ifndef SELLER_H
 #define SELLER_H

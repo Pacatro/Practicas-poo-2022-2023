@@ -1,3 +1,6 @@
+//product_main.cc: Paco Algar
+//Main program to prove Product class
+
 #include "product.h"
 #include <iostream>
 

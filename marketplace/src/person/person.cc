@@ -1,3 +1,6 @@
+//person.cc: Paco Algar
+//Defining Person class functions
+
 #include "person.h"
 #include <string>
 

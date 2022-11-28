@@ -1,3 +1,6 @@
+//app.cc: Paco Algar
+//Defining function menu()
+
 #include "app.h"
 
 void menu(std::string slogan){

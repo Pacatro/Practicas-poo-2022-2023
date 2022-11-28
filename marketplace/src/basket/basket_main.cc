@@ -1,3 +1,6 @@
+//basket.h: Paco Algar
+//A simple program to use Basket class
+
 #include "basket.h"
 #include <iostream>
 #include <list>

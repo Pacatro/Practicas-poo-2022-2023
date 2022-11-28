@@ -1,3 +1,6 @@
+//basket.cc: Paco Algar
+//Defining Basket class funtions
+
 #include "basket.h"
 
 bool Basket::delete_product(Product product){

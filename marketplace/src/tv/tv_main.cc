@@ -1,3 +1,6 @@
+//tv_main.cc: Paco Algar
+//Main program to prove Tv class
+
 #include "tv.h"
 #include <iostream>
 

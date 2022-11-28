@@ -1,5 +1,5 @@
 // computer.h: Paco Algar
-// Defining class Computer
+// Defining Computer class
 
 #ifndef COMPUTER_H
 #define COMPUTER_H

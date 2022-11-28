@@ -1,25 +1,27 @@
+//contador.cc: Paco Algar
+//Defining all operators from Contador
+
 #include "contador.h"
 
-Contador::Contador(int valor, int min, int max){
-    valor_ = valor;
-    min_ = min;
-    max_ = max;
+Contador::Contador(int valor, int min, int max): 
+    valor_(valor), min_(min), max_(max) {
     
     if(valor < min || valor > max || min > max){
         valor_ = 0;
         min_ = 0;
         max_ = 1000;
     }
-
 }
 
-//c = n
+//c = 10
 Contador Contador::operator=(const int &n){
     valor_ = n;
 
     if(valor_ > max_){
         valor_ = max_;
-    } else if(valor_ < min_){
+    } 
+    
+    else if(valor_ < min_){
         valor_ = min_;
     }
 
@@ -89,6 +91,7 @@ Contador Contador::operator--(int){
     return c;
 }
 
+//10 + c
 Contador operator+(int value, const Contador &c){
     Contador aux = c;
 
@@ -101,18 +104,20 @@ Contador operator+(int value, const Contador &c){
     return aux;
 }
 
-Contador Contador::operator+(const int value){
-    Contador aux = *this;
+//c + 10
+Contador operator+(const Contador &c, const int value){
+    Contador aux = c;
 
-    aux.valor_ = valor_ + value;
+    aux.valor_ = c.valor_ + value;
 
-    if(aux.valor_ > max_){
-        aux.valor_ = max_;
+    if(aux.valor_ > c.max_){
+        aux.valor_ = c.max_;
     }
 
     return aux;
 }
 
+//10 - c
 Contador operator-(int value, const Contador &c){
     Contador aux = c;
 
@@ -125,18 +130,20 @@ Contador operator-(int value, const Contador &c){
     return aux;
 }
 
-Contador Contador::operator-(const int value){
-    Contador aux = *this;
+//c - 10
+Contador operator-(const Contador &c, const int value){
+    Contador aux = c;
 
-    aux.valor_ = valor_ - value;
+    aux.valor_ = c.valor_ - value;
 
-    if(aux.valor_ < min_){
-        aux.valor_ = min_;
+    if(aux.valor_ < c.min_){
+        aux.valor_ = c.min_;
     }
 
     return aux;
 }
 
+//std::cout << c
 std::ostream &operator<<(std::ostream &stream, const Contador &c){
     
     stream << c.valor_;
@@ -144,6 +151,7 @@ std::ostream &operator<<(std::ostream &stream, const Contador &c){
     return stream;
 }
 
+//std::cin >> c
 std::istream &operator>>(std::istream &stream, const Contador &c){
     bool error = false;
 

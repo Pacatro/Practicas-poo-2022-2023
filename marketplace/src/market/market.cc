@@ -1,3 +1,6 @@
+//market.cc: Paco Algar
+//Defining Market class funtions
+
 #include "market.h"
 
 bool Market::add_client(Client client){

@@ -1,3 +1,6 @@
+//person_main.cc: Paco Algar
+//Main program to prove Person class
+
 #include "person.h"
 #include <iostream>
 #include <string>

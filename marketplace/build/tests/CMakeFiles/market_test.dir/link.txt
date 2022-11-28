@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/market_test.dir/market_test.cc.o -o market_test  ../src/market/libmarket.a ../src/person/libperson.a ../src/product/libproduct.a ../src/seller/libseller.a ../src/client/libclient.a ../src/basket/libbasket.a ../lib/libgtest_main.a ../lib/libgtest.a 

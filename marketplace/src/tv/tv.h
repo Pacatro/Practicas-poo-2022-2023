@@ -1,5 +1,5 @@
 // tv.h: Paco Algar
-// Defining class Tv
+// Defining Tv class
 
 #ifndef TV_H
 #define TV_H

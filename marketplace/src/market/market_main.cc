@@ -1,3 +1,6 @@
+//market_main.cc: Paco Algar
+//Main program to prove Market class
+
 #include "market.h"
 
 int main(){
