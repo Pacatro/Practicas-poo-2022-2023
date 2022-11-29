@@ -28,7 +28,7 @@ class Computer: public Product{
 
         inline ComputerType get_type() const {return type_;}
 
-        inline void set_type(ComputerType type){type_ = type;}   
+        inline void set_type(const ComputerType &type){type_ = type;}   
 };
 
 #endif

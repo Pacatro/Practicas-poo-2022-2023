@@ -3,7 +3,7 @@
 
 #include "basket.h"
 
-bool Basket::delete_product(Product product){
+bool Basket::delete_product(const Product &product){
     std::list<Product>::iterator it;
 
     for(it = product_list_.begin(); it != product_list_.end(); it++){
@@ -45,7 +45,7 @@ bool Basket::delete_product(std::string id){
     return false;
 }
 
-void Basket::add_product(Product product){
+void Basket::add_product(const Product &product){
     if(!is_in_list(product)){
         product_list_.push_back(product);
         product_quantity_[product.get_id()] = 1;
@@ -78,7 +78,7 @@ std::vector <int> Basket::get_qs(){
     return vector_qs;
 }
 
-bool Basket::is_in_list(Product product){
+bool Basket::is_in_list(const Product &product){
     std::list<Product>::iterator it;
 
     for(it = product_list_.begin(); it != product_list_.end(); it++){

@@ -3,7 +3,7 @@
 
 #include "market.h"
 
-bool Market::add_client(Client client){
+bool Market::add_client(const Client &client){
     std::list<Client>::iterator it;
 
     for(it = client_list_.begin(); it != client_list_.end(); it++){
@@ -16,7 +16,7 @@ bool Market::add_client(Client client){
     return true;
 }
 
-bool Market::add_seller(Seller seller){
+bool Market::add_seller(const Seller &seller){
     std::list<Seller>::iterator it;
 
     for(it = seller_list_.begin(); it != seller_list_.end(); it++){
@@ -29,7 +29,7 @@ bool Market::add_seller(Seller seller){
     return true;
 }
 
-bool Market::delete_client(Client client){
+bool Market::delete_client(const Client &client){
     for(auto it = client_list_.begin(); it != client_list_.end(); it++){
         if(it->get_id() == client.get_id()){
             client_list_.erase(it);
@@ -40,7 +40,7 @@ bool Market::delete_client(Client client){
     return false;
 }
 
-bool Market::delete_seller(Seller seller){
+bool Market::delete_seller(const Seller &seller){
     for(auto it = seller_list_.begin(); it != seller_list_.end(); it++){
         if(it->get_id() == seller.get_id()){
             seller_list_.erase(it);
@@ -51,7 +51,7 @@ bool Market::delete_seller(Seller seller){
     return false;
 }
 
-bool Market::add_product_client(Product p, std::string id_client){
+bool Market::add_product_client(const Product &p, std::string id_client){
     if(product_on_sale_(p.get_id())){
         for(auto it = client_list_.begin(); it != client_list_.end(); it++){
             if(it->get_id() == id_client){
@@ -64,7 +64,7 @@ bool Market::add_product_client(Product p, std::string id_client){
     return false;
 }
 
-bool Market::add_product_seller(Product p, std::string id_seller){
+bool Market::add_product_seller(const Product &p, std::string id_seller){
     for(auto it = seller_list_.begin(); it != seller_list_.end(); it++){
         if(it->get_id() == id_seller){
             it->add_product(p);
@@ -76,7 +76,7 @@ bool Market::add_product_seller(Product p, std::string id_seller){
 
 }
 
-bool Market::delete_product_client(Product p, std::string id_client){
+bool Market::delete_product_client(const Product &p, std::string id_client){
     for(auto it = client_list_.begin(); it != client_list_.end(); it++){
         if(it->get_id() == id_client){
             for(auto id : it->get_ids()){
@@ -91,7 +91,7 @@ bool Market::delete_product_client(Product p, std::string id_client){
     return false;
 }
 
-bool Market::delete_product_seller(Product p, std::string id_seller){
+bool Market::delete_product_seller(const Product &p, std::string id_seller){
     for(auto it = seller_list_.begin(); it != seller_list_.end(); it++){
         if(it->get_id() == id_seller){
             for(auto id : it->get_ids()){

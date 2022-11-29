@@ -21,10 +21,10 @@ class Basket{
         inline ~Basket(){}
 
         inline float get_total() const {return total_;}
-        void add_product(Product product);
-        bool delete_product(Product product);
+        void add_product(const Product &product);
+        bool delete_product(const Product &product);
         bool delete_product(std::string id);
-        bool is_in_list(Product product);
+        bool is_in_list(const Product &product);
         inline void delete_basket(){product_list_.clear();}
         inline int get_size() const {return product_list_.size();}
         std::vector <std::string> get_ids(); 
