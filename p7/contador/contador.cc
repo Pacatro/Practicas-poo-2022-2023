@@ -159,7 +159,7 @@ std::istream &operator>>(std::istream &stream, const Contador &c){
         std::cout<<"Introduce el valor del contador: ";
         stream >> c.valor_;
 
-        if(c.valor_ > c.min_ || c.valor_ < c.max_){
+        if(c.valor_ > c.min_ && c.valor_ < c.max_){
             std::cout<<"Valor correcto\n";
         }
 
